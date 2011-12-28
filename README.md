@@ -1,4 +1,4 @@
-# jgps
+# jBetaBrite
 
 A Java interface for communicating with the [BetaBrite](http://betabrite.com/) series of LED text displays.
 
