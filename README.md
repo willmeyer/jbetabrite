@@ -1,8 +1,14 @@
 # jgps
 
-A Java interface for communicating with the BetaBrite series of LED banner displays.
+A Java interface for communicating with the [BetaBrite](http://betabrite.com/) series of LED text displays.
 
-## Setup
+Why?  Well, because LED displays are cooler than boring old general-purpose monitors.
 
-- connected to BetaBrite device via (virtual) serial port
-- requires com.willmeyer.jrs232, with its attendant install requirements
+## Requirements & Setup
+
+- A connected to BetaBrite device via (real or virtual) RS-232 port
+- The [jRS232 package](http://www.github.com/willmeyer/jrs232) and its `com.willmeyer.jrs232`, with its install requirements
+
+## Using the Library
+
+See `com.willmeyer.jbetabrite.Sign`, the basic sign interface.
